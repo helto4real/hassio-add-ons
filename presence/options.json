@@ -1,0 +1,23 @@
+{
+    "log_level": "info",
+    "persons": [
+        {
+            "id": "thomas",
+            "friendly_name": "Thomas",
+            "devices": [
+                "device_tracker.thomas_first_tracker",
+                "device_tracker.thomas_second_tracker",
+                "device_tracker.thomas_third_tracker"
+            ]
+        },
+        {
+            "id": "dawn",
+            "friendly_name": "Dawn",
+            "devices": [
+                "device_tracker.dawns_first_tracker",
+                "device_tracker.dawns_second_tracker",
+                "device_tracker.dawns_third_tracker"
+            ]
+        }
+    ]
+}

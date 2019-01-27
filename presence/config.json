@@ -1,0 +1,32 @@
+{
+    "name": "A better presence",
+    "version": "0.3.8",
+    "slug": "better_presence",
+    "description": "A better presence ",
+    "url": "https://github.com/helto4real/hassio-add-ons/presence",
+    "startup": "application",
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf"
+    ],
+    "boot": "auto",
+    "hassio_api": true,
+    "hassio_role": "default",
+    "homeassistant_api": true,
+    "host_network": false,
+    "options": {
+        "log_level": "info",
+        "persons": []
+    },
+    "schema": {
+        "log_level": "match(^(trace|debug|info|warning|error|fatal)$)",
+        "persons": [
+            {
+                "id": "str",
+                "friendly_name": "str",
+                "devices": ["str"]
+            }
+        ]
+    }
+}
