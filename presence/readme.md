@@ -14,7 +14,10 @@ Away->Just arrived->Home
 
 ```
 # Configuration add-on
-I recommend using one tracker that is router and one tracker that is bluetooth and one tracker that is gps type. That will get the best results. You will need **atleast** one of router or bluetooth and one of gps tracker. 
+For best results recommend using one tracker that is of router typr and one tracker that is of bluetooth type and finally the third tracker that is of gps type. 
+
+You will need **atleast** one of router/bluetooth typo and one of gps type trackers.
+ 
 The name of the device in Home Assistant will be `sensor.[id]_presence`
 
 ## Example of two persons and their trackers.
