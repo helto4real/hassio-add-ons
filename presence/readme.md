@@ -19,9 +19,9 @@ Go to ADD-ON-STORE and add the https://github.com/helto4real/hassio-add-ons to "
 After that helto4real add-ons should show under the title: Helto4Real Hass.io Add-ons
 
 # Configuration add-on
-For best results recommend using one tracker that is of router typr and one tracker that is of bluetooth type and finally the third tracker that is of gps type. 
+For best results recommend using one tracker that is of router type and one tracker that is of bluetooth type and finally the third tracker that is of gps type. 
 
-You will need **atleast** one of router/bluetooth typo and one of gps type trackers.
+You will need **atleast** one of router/bluetooth type and one of gps type trackers.
 
 The name of the device in Home Assistant will be `sensor.[id]_presence`
 
