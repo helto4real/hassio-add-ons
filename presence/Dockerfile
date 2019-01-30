@@ -11,7 +11,7 @@ ENV PATH /go/bin:$PATH
 
 RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 
-ENV ADD_ON_VERSION 0.1.10
+ENV ADD_ON_VERSION 0.1.11
 RUN go get github.com/helto4real/go-daemon/hassio
 
 WORKDIR /go/src/github.com/helto4real/go-daemon/hassio
