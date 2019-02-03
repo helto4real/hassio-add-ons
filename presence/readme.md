@@ -1,4 +1,4 @@
-# Better presence add-on (alpha)
+# Better presence add-on (beta)
 This add-on makes a combination of trackers to get better tracking capabilies in home assistant
 Checkout 
 https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/ as inspiration
