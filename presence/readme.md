@@ -1,7 +1,12 @@
-# Better presence add-on (beta)
+# Better presence add-on (1.0)
 This add-on makes a combination of trackers to get better tracking capabilies in home assistant
 Checkout 
 https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/ as inspiration
+
+
+**IF YOU ARE USING THE BETA IT WILL BE BREAKING CHANGE OF THE NAME FROM `sensor.[id]_presence` to `device_tracker.[id]_presence`!** 
+
+The reason for this is the new person that can only take device_tracker as device, not sensor. Everything else is the same.
 
 Basically the state will go:
 
@@ -23,7 +28,7 @@ For best results recommend using one tracker that is of router type and one trac
 
 You will need **atleast** one of router/bluetooth type and one of gps type trackers.
 
-The name of the device in Home Assistant will be `sensor.[id]_presence`
+The name of the device tracker in Home Assistant will be `device_tracker.[id]_presence`
 
 ## Example of two persons and their trackers.
 ```json
