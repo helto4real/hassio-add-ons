@@ -36,15 +36,13 @@ The name of the device tracker in Home Assistant will be `device_tracker.[id]_pr
 ```json
 {
     "log_level": "info",
-    "settings": {
-        "tracking": {
-            "just_arrived_time": 300,
-            "just_left_time": 60,
-            "home_state": "Home",
-            "just_left_state": "Just left",
-            "just_arrived_state": "Just arrived",
-            "away_state": "Away"
-        }
+    "tracking": {
+        "just_arrived_time": 300,
+        "just_left_time": 60,
+        "home_state": "Home",
+        "just_left_state": "Just left",
+        "just_arrived_state": "Just arrived",
+        "away_state": "Away"
     },
     "persons": [
         {
