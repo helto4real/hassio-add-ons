@@ -1,6 +1,6 @@
 {
     "name": "A better presence",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "slug": "better_presence",
     "description": "A better presence",
     "url": "https://github.com/helto4real/hassio-add-ons/presence",
@@ -30,12 +30,12 @@
     "schema": {
         "log_level": "match(^(trace|debug|info|warning|error|fatal)$)",
         "tracking": {
-            "just_arrived_time": "int",
-            "just_left_time": "int",
-            "home_state": "str",
-            "just_left_state": "str",
-            "just_arrived_state": "str",
-            "away_state": "str"
+            "just_arrived_time": "int?",
+            "just_left_time": "int?",
+            "home_state": "str?",
+            "just_left_state": "str?",
+            "just_arrived_state": "str?",
+            "away_state": "str?"
         },
         "persons": [
             {

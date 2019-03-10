@@ -31,9 +31,21 @@ You will need **atleast** one of router/bluetooth type and one of gps type track
 The name of the device tracker in Home Assistant will be `device_tracker.[id]_presence`
 
 ## Example of two persons and their trackers.
+
+
 ```json
 {
     "log_level": "info",
+    "settings": {
+        "tracking": {
+            "just_arrived_time": 300,
+            "just_left_time": 60,
+            "home_state": "Home",
+            "just_left_state": "Just left",
+            "just_arrived_state": "Just arrived",
+            "away_state": "Away"
+        }
+    },
     "persons": [
         {
             "id": "thomas",
@@ -56,3 +68,14 @@ The name of the device tracker in Home Assistant will be `device_tracker.[id]_pr
     ]
 }
 ```
+
+### Settings
+
+|  Setting |  Description  |
+|:--------|:-------------|
+| just_arrived_time | Time from just arrived to be considered home (seconds)  |
+| just_left_time | Time from just left to be considered away (seconds)       |
+| home_state | Value of home state |
+| just_left_state | Value of state representing just left |
+| just_arrived_state | Value of state representing just arrived |
+| away_state | Value of away state |
