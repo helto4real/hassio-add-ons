@@ -1,10 +1,8 @@
-# Better presence add-on (1.0.3)
+# Better presence add-on (1.1.0)
 This add-on makes a combination of trackers to get better tracking capabilies in home assistant
 Checkout 
 https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/ as inspiration
 
-
-**IF YOU ARE USING THE BETA IT WILL BE BREAKING CHANGE OF THE NAME FROM `sensor.[id]_presence` to `device_tracker.[id]_presence`!** 
 
 The reason for this is the new person that can only take device_tracker as device, not sensor. Everything else is the same.
 
