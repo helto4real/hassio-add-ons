@@ -17,29 +17,25 @@
     "host_network": false,
     "options": {
         "log_level": "info",
-        "settings": {
-            "tracking": {
-                "just_arrived_time": 300,
-                "just_left_time": 60,
-                "home_state": "Home",
-                "just_left_state": "Just left",
-                "just_arrived_state": "Just arrived",
-                "away_state": "Away"
-            }
+        "tracking": {
+            "just_arrived_time": 300,
+            "just_left_time": 60,
+            "home_state": "Home",
+            "just_left_state": "Just left",
+            "just_arrived_state": "Just arrived",
+            "away_state": "Away"
         },
         "persons": []
     },
     "schema": {
         "log_level": "match(^(trace|debug|info|warning|error|fatal)$)",
-        "settings": {
-            "tracking": {
-                "just_arrived_time": "int",
-                "just_left_time": "int",
-                "home_state": "str",
-                "just_left_state": "str",
-                "just_arrived_state": "str",
-                "away_state": "str"
-            }
+        "tracking": {
+            "just_arrived_time": "int",
+            "just_left_time": "int",
+            "home_state": "str",
+            "just_left_state": "str",
+            "just_arrived_state": "str",
+            "away_state": "str"
         },
         "persons": [
             {
