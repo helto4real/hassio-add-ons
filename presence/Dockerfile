@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base:2.3.1
+ARG BUILD_FROM=hassioaddons/base:4.0.2
 FROM ${BUILD_FROM} as build
 
 RUN apk update && \
@@ -11,7 +11,7 @@ ENV PATH /go/bin:$PATH
 
 RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 
-ENV ADD_ON_VERSION 1.1.0
+ENV ADD_ON_VERSION 1.1.1
 RUN go get github.com/helto4real/go-daemon/hassio
 
 WORKDIR /go/src/github.com/helto4real/go-daemon/hassio

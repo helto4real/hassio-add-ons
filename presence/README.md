@@ -1,4 +1,4 @@
-# Better presence add-on (1.1.0)
+# Better presence add-on (1.1.1)
 This add-on makes a combination of trackers to get better tracking capabilies in home assistant
 Checkout 
 https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/ as inspiration
