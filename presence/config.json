@@ -1,48 +1,44 @@
 {
-    "name": "A better presence",
-    "version": "1.1.1",
-    "slug": "better_presence",
-    "description": "A better presence, combine several trackers",
-    "url": "https://github.com/helto4real/hassio-add-ons/tree/master/presence",
-    "startup": "application",
-    "arch": [
-        "aarch64",
-        "amd64",
-        "armhf"
-    ],
-    "boot": "auto",
-    "hassio_api": true,
-    "hassio_role": "default",
-    "homeassistant_api": true,
-    "host_network": false,
-    "options": {
-        "log_level": "info",
-        "tracking": {
-            "just_arrived_time": 300,
-            "just_left_time": 60,
-            "home_state": "Home",
-            "just_left_state": "Just left",
-            "just_arrived_state": "Just arrived",
-            "away_state": "Away"
-        },
-        "persons": []
+  "name": "A better presence",
+  "version": "1.1.2",
+  "slug": "better_presence",
+  "description": "A better presence, combine several trackers",
+  "url": "https://github.com/helto4real/hassio-add-ons/tree/master/presence",
+  "startup": "application",
+  "arch": ["aarch64", "amd64", "armhf"],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "host_network": false,
+  "options": {
+    "log_level": "info",
+    "tracking": {
+      "just_arrived_time": 300,
+      "just_left_time": 60,
+      "home_state": "Home",
+      "just_left_state": "Just left",
+      "just_arrived_state": "Just arrived",
+      "away_state": "Away"
     },
-    "schema": {
-        "log_level": "match(^(trace|debug|info|warning|error|fatal)$)",
-        "tracking": {
-            "just_arrived_time": "int?",
-            "just_left_time": "int?",
-            "home_state": "str?",
-            "just_left_state": "str?",
-            "just_arrived_state": "str?",
-            "away_state": "str?"
-        },
-        "persons": [
-            {
-                "id": "str",
-                "friendly_name": "str",
-                "devices": ["str"]
-            }
-        ]
-    }
+    "persons": []
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|warning|error|fatal)$)",
+    "tracking": {
+      "just_arrived_time": "int?",
+      "just_left_time": "int?",
+      "home_state": "str?",
+      "just_left_state": "str?",
+      "just_arrived_state": "str?",
+      "away_state": "str?"
+    },
+    "persons": [
+      {
+        "id": "str",
+        "friendly_name": "str",
+        "devices": ["str"]
+      }
+    ]
+  }
 }
