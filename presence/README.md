@@ -1,4 +1,4 @@
-# Better presence add-on (1.1.2)
+# Better presence add-on (1.1.3)
 
 This add-on makes a combination of trackers to get better tracking capabilies in home assistant
 Checkout

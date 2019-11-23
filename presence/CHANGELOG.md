@@ -1,4 +1,7 @@
 # Changelog
+## [1.1.3]
+- Using a pre-built container for faster user experience.
+- Updated libs etc..
 
 ## [1.1.2]
 
