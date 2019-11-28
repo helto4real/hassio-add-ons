@@ -1,10 +1,10 @@
 {
-    "squash": false,
-    "build_from": {
-        "aarch64": "hassioaddons/base:5.0.2",
-        "amd64": "hassioaddons/base:5.0.2",
-        "armhf": "hassioaddons/base:5.0.2",
-        "armv7": "hassioaddons/base:5.0.2"
-    },
-    "args": {}
+  "squash": false,
+  "build_from": {
+    "aarch64": "hassioaddons/base-aarch64:5.0.2",
+    "amd64": "hassioaddons/base-amd64:5.0.2",
+    "armhf": "hassioaddons/base-armhf:5.0.2",
+    "armv7": "hassioaddons/base-armv7:5.0.2"
+  },
+  "args": {}
 }
