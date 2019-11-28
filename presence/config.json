@@ -4,14 +4,8 @@
   "slug": "better_presence",
   "description": "A better presence, combine several trackers",
   "url": "https://github.com/helto4real/hassio-add-ons/presence",
-  "image": "helto4real/hassio-better-presence-{arch}",
   "startup": "application",
-  "arch": [
-    "aarch64",
-    "amd64",
-    "armhf",
-    "armv7"
-  ],
+  "arch": ["aarch64", "amd64", "armhf", "armv7"],
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
@@ -43,9 +37,7 @@
       {
         "id": "str",
         "friendly_name": "str",
-        "devices": [
-          "str"
-        ]
+        "devices": ["str"]
       }
     ]
   }
