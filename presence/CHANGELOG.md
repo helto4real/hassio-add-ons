@@ -1,4 +1,7 @@
 # Changelog
+## [1.2.0]
+Pre-built containers, maintainence release (the correct way :)) You might have to uninstall and install the add-on. **Remember to copy settings before uninstalling!**
+
 ## [1.1.4]
 Revert back to locally built images due to RPI problems. If you got 1.1.3 working no need for this update. Uninstall old add-on and install this one!
 
