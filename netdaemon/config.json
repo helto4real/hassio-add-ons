@@ -1,0 +1,17 @@
+{
+  "name": "NetDaemon",
+  "version": "0.0.11",
+  "slug": "netdaemon",
+  "description": "Application daemon written in .NET core 3.1",
+  "url": "https://github.com/helto4real/hassio-add-ons/presence",
+  "startup": "application",
+  "arch": ["amd64"],
+  "boot": "auto",
+  "map": ["config:rw"],
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "host_network": false,
+  "options": {},
+  "schema": {}
+}
