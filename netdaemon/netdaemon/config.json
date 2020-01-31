@@ -1,0 +1,6 @@
+{
+    "token": "enter_token_here",
+    "host": "ip/hostname",
+    "port": 8123,
+    "ssl": false
+}
