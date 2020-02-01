@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "https://helto4real.github.io/netdaemon/",
