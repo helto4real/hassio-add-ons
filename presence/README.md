@@ -77,3 +77,7 @@ The name of the device tracker in Home Assistant will be `device_tracker.[id]_pr
 | just_left_state    | Value of state representing just left                  |
 | just_arrived_state | Value of state representing just arrived               |
 | away_state         | Value of away state                                    |
+
+## Attribution
+
+ICON: Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
