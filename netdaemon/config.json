@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "https://github.com/helto4real/hassio-add-ons/tree/master/netdaemon",

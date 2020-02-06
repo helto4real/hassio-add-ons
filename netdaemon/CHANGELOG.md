@@ -8,6 +8,7 @@
 
 - Support for send and listen to custom events
 
-## [0.0.15]
+## [0.0.16]
 
 - Stability update
+- Bug make 0.0.15 not start up
