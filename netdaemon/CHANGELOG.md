@@ -8,3 +8,6 @@
 
 - Support for send and listen to custom events
 
+## [0.0.15]
+
+- Stability update

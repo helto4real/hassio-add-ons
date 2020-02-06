@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "slug": "better_presence",
   "description": "A better presence, combine several trackers",
-  "url": "https://github.com/helto4real/hassio-add-ons/presence",
+  "url": "https://github.com/helto4real/hassio-add-ons/tree/master/presence",
   "startup": "application",
   "image": "helto4real/hassio-better-presence-{arch}",
   "arch": ["aarch64", "amd64", "armhf", "armv7"],

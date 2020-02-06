@@ -15,3 +15,8 @@ The daemon is currently only distributed through Hassio add-on but a docker cont
 ## Docs
 
 [Find the documentation here!](https://helto4real.github.io/netdaemon/)
+
+
+## Attribution
+
+ICON: Attribution: [chris]([chris](https://commons.wikimedia.org/wiki/User:Chrkl)) 論
