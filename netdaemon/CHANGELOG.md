@@ -16,3 +16,9 @@
 ## [0.0.17]
 
 - Config yaml files can be breaking!
+
+## [0.0.18]
+
+- Added IEnumerable and Speak to MediaPlayer
+
+
