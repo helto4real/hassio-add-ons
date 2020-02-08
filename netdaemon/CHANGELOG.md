@@ -12,3 +12,7 @@
 
 - Stability update
 - Bug make 0.0.15 not start up
+
+## [0.0.17]
+
+- Config yaml files can be breaking!
