@@ -21,4 +21,7 @@
 
 - Added IEnumerable and Speak to MediaPlayer
 
+## [0.0.19]
 
+- Support to listen for service calls
+- Basic attribute support
