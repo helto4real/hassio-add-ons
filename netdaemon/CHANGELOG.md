@@ -13,6 +13,6 @@
 - Support to listen for service calls
 - Basic attribute support
 
-## [0.0.20]
+## [0.0.21]
 
 - Set loglevel support in add-on config
