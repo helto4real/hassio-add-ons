@@ -68,3 +68,31 @@ RUN wget -O dotnet.tar.gz https://dotnetcli.azureedge.net/dotnet/Runtime/$dotnet
 ENV HASS_DAEMONAPPFOLDER /config/netdaemon
 
 CMD [ "/daemon/Service" ]
+
+#
+# LABEL target docker image
+#
+
+# Build arguments
+ARG BUILD_ARCH
+ARG BUILD_DATE
+ARG BUILD_REF
+ARG BUILD_VERSION
+
+# Labels
+LABEL \
+    io.hass.name="Netdaemon" \
+    io.hass.description="An application daemon for c# and .NET core 3.1" \
+    io.hass.arch="${BUILD_ARCH}" \
+    io.hass.type="addon" \
+    io.hass.version=${BUILD_VERSION} \
+    maintainer="Tomas Hellström <tomas.hellstrom@yahoo.se>" \
+    org.label-schema.description="Netdaemon, a community add-on written in .NET core 3.1" \
+    org.label-schema.build-date=${BUILD_DATE} \
+    org.label-schema.name="Netdaemon" \
+    org.label-schema.schema-version="1.0" \
+    org.label-schema.url="https://addons.community" \
+    org.label-schema.usage="https://helto4real.github.io/netdaemon/" \
+    org.label-schema.vcs-ref=${BUILD_REF} \
+    org.label-schema.vcs-url="https://helto4real.github.io/netdaemon/" \
+    org.label-schema.vendor="Community Hass.io Addons"
