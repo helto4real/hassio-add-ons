@@ -22,3 +22,8 @@
 - All files are compiled in one unit so we support global classes and shared variables
 - Secrets, secrets.yaml and !secret references like Home Assistant
 
+## [0.0.24]
+
+- Scheduling improvements
+- Store state
+

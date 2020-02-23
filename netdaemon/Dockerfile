@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine as build
 
 # Avoid warnings by switching to noninteractive
 #ENV DEBIAN_FRONTEND=noninteractive
-ENV ADDON_VERSION 0.0.23
+ENV ADDON_VERSION 0.0.24
 
 # Build arguments
 ARG BUILD_ARCH
@@ -14,7 +14,8 @@ ARG BUILD_ARCH
 # Configure apt and install packages
 RUN \
     apk add --no-cache git \
-    && git clone https://github.com/helto4real/netdaemon.git
+    && git clone https://github.com/helto4real/netdaemon.git \
+    && git checkout master
 
 RUN cd netdaemon/src/Service/ \
     && dotnet publish -c Release
