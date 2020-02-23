@@ -26,3 +26,7 @@
 
 - Scheduling improvements
 - Store state
+
+## [0.0.26]
+
+- Scheduling improvements, weekday selections
