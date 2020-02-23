@@ -1,10 +1,11 @@
 {
   "name": "NetDaemon",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "https://github.com/helto4real/hassio-add-ons/tree/master/netdaemon",
   "startup": "application",
+  "image": "helto4real/hassio-netdaemon-{arch}",
   "arch": ["amd64"],
   "boot": "auto",
   "map": ["config:rw"],

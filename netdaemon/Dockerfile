@@ -6,10 +6,11 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine as build
 
 # Avoid warnings by switching to noninteractive
 #ENV DEBIAN_FRONTEND=noninteractive
-ENV ADDON_VERSION 0.0.26
 
 # Build arguments
 ARG BUILD_ARCH
+# Add-on version
+ENV ADDON_VERSION 0.0.27
 
 # Configure apt and install packages
 RUN \

@@ -2,7 +2,7 @@
 # Multi stage build of add-on container
 #
 
-ARG BUILD_FROM=homeassistant/amd64-base:3.10
+ARG BUILD_FROM=homeassistant/base-amd64:5.0.3
 
 # STAGE 1: Build the binary
 FROM golang:1.13.4-alpine3.10 as build
