@@ -30,3 +30,7 @@
 ## [0.0.26]
 
 - Scheduling improvements, weekday selections
+
+## [0.0.28]
+
+- Scheduling improvements, compensate for delay early
