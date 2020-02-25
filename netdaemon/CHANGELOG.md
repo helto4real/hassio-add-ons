@@ -34,3 +34,7 @@
 ## [0.0.28]
 
 - Scheduling improvements, compensate for delay early
+
+## [0.0.29]
+
+- InputSelect support in fluent API
