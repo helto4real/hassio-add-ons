@@ -1,5 +1,5 @@
 # Install .net core runtime deps
-if [ "$BUILD_ARCH" == 'amd64' ] || [ "$BUILD_ARCH" == 'aarch64' ]; then
+if [ "$BUILD_ARCH" == 'amd64' ]; then
     apk add --no-cache \
         ca-certificates \
         krb5-libs \
@@ -13,7 +13,7 @@ if [ "$BUILD_ARCH" == 'amd64' ] || [ "$BUILD_ARCH" == 'aarch64' ]; then
 fi
 
 # arm 32/64 buster slim
-if [ "$BUILD_ARCH" == 'armhf' ] || [ "$BUILD_ARCH" == 'armv7' ]; then
+if [ "$BUILD_ARCH" == 'armhf' ] || [ "$BUILD_ARCH" == 'armv7' ] || [ "$BUILD_ARCH" == 'aarch64' ]; then
     apt-get update &&
         apt-get install -y --no-install-recommends \
             ca-certificates libc6 \
