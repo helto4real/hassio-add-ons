@@ -38,3 +38,7 @@
 ## [0.0.29]
 
 - InputSelect support in fluent API
+
+## [0.0.30]
+
+- Support for arm based devices (experimental)
