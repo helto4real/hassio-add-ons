@@ -7,11 +7,12 @@ trigger: none
 pr: none
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
+#  vmImage: 'ubuntu-latest'
 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: docker run --rm --privileged -v ~/.docker:/root/.docker -v $(Build.SourcesDirectory)/netdaemon:/data homeassistant/amd64-builder -t /data --all
+- script: docker run --rm --privileged -v $HOME\.docker:/root/.docker -v $(Build.SourcesDirectory)\netdaemon:/data homeassistant/amd64-builder -t /data --all
   displayName: 'Deploy'
