@@ -49,7 +49,7 @@ COPY --from=build /netdaemon/bin/publish /daemon
 COPY install_dotnet_dep.sh /install_dotnet_dep.sh
 
 # Install .net core runtime deps
-RUN /install_dotnet_dep.sh
+RUN chmod +x /install_dotnet_dep.sh && /install_dotnet_dep.sh
 
 # Configure web servers to bind to port 80 when present
 ENV ASPNETCORE_URLS=http://+:80 \
