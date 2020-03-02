@@ -9,14 +9,17 @@ pr: none
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: Docker@2
-  displayName: Login to ACR
-  inputs:
-    command: login
-    containerRegistry: Dockerhub
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+variables:
+  - group: docker-information
 
-- script: docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v $(Build.SourcesDirectory)/netdaemon:/data homeassistant/amd64-builder -t /data --all
+steps:
+# - task: Docker@2
+#   displayName: Login to ACR
+#   inputs:
+#     command: login
+#     containerRegistry: Dockerhub
+# - script: echo Hello, world!
+#   displayName: 'Run a one-line script'
+
+- script: docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v $(Build.SourcesDirectory)/netdaemon:/data homeassistant/amd64-builder -t /data --all --docker-user $(docker_user) --docker-password $(docker_password)
   displayName: 'Deploy'
