@@ -10,8 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: more /etc/docker/daemon.json
+- script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: docker run --rm --privileged -v ~/.docker:/root/.docker -v $(Build.SourcesDirectory)/netdaemon:/data homeassistant/amd64-builder -t /data --all
+- script: docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v $(Build.SourcesDirectory)/netdaemon:/data homeassistant/amd64-builder -t /data --all
   displayName: 'Deploy'
