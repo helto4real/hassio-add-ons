@@ -4,7 +4,7 @@ This is the development enviroment for NetDaemon.
 
 ## Getting started
 
-1. Edit the config.json file to provide details about how to connect to Home Assistant. You will need a long lived token, ip, port.
+1. Edit the daemon_config.json file to provide details about how to connect to Home Assistant. You will need a long lived token, ip, port.
 2. Run dotnet restore in the terminal
 3. Add and edit your apps in the apps folder.
 4. Copy the edited apps to the folder `netdaemon` under your Hass.io config folder
