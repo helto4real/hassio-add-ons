@@ -42,3 +42,7 @@
 ## [0.0.30]
 
 - Support for arm based devices (experimental)
+
+## [0.0.31]
+
+- Support to cancel scheduled tasks. Removed the Async versions och scheduled tasks. Use the result Task property if you want to manage the actual task instead.
