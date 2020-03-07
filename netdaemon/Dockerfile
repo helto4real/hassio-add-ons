@@ -10,7 +10,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine as build
 # Build arguments
 ARG BUILD_ARCH
 # Add-on version
-ENV ADDON_VERSION 0.0.31
+ENV ADDON_VERSION 0.0.30
 
 # Configure apt and install packages
 RUN \
