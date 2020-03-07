@@ -1,15 +1,15 @@
 # Install .net core runtime deps
 if [ "$BUILD_ARCH" == 'amd64' ]; then
-    apk add --no-cache \
-        ca-certificates \
-        krb5-libs \
-        libgcc \
-        libintl \
-        libssl1.1 \
-        libstdc++ \
-        libc6-compat \
-        wget \
-        zlib
+    apk update &&
+        apk add --no-cache \
+            ca-certificates \
+            krb5-libs \
+            libgcc \
+            libintl \
+            libssl1.1 \
+            libstdc++ \
+            wget \
+            zlib
 fi
 
 # arm 32/64 buster slim
