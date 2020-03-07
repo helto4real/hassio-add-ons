@@ -8,14 +8,14 @@
  </PropertyGroup>
 
   <ItemGroup>
-    <None Update="config.json">
+    <None Update="daemon_config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="JoySoftware.NetDaemon.App" Version="0.1.39-alpha" />
-    <PackageReference Include="JoySoftware.NetDaemon.DaemonRunner" Version="0.1.39-alpha" />
+    <PackageReference Include="JoySoftware.NetDaemon.App" Version="0.1.40-alpha" />
+    <PackageReference Include="JoySoftware.NetDaemon.DaemonRunner" Version="0.1.40-alpha" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.1" />
   </ItemGroup>
