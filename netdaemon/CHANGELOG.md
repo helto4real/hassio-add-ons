@@ -1,9 +1,5 @@
 # Changelog
 
-## [0.0.31]
-
-- Support to cancel scheduled tasks. Removed the Async versions och scheduled tasks. Use the result Task property if you want to manage the actual task instead.
-
 ## [0.0.32]
 
 - Changed the config.json filename so it wont conflict with Home Assistant add-on config name. It will be breaking change in the dev environment. Please use the new devsetup from
@@ -13,3 +9,8 @@
 
 - Support for arrays and objects in attributes
 - Support for namespaces and fully qualified names in classes in the yaml config.
+
+## [0.0.34]
+
+- Home Assistant change internal API url. This fixes the SetState stopped working.
+- NUGET dev component version: 0.1.42-alpha
