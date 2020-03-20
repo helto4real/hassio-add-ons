@@ -14,3 +14,8 @@
 
 - Docker support
 - Discovery and reload apps
+
+## [0.0.36]
+
+- Support to delay until state is changed to specific state
+- NUGET dev component version: 0.1.45-alpha
