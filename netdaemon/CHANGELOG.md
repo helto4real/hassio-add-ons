@@ -1,4 +1,0 @@
-# Changelog
-
-DEPRECATED, SEE READ ME FOR ACTION!
-
